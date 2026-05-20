@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>EcoCultivar</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#praticas">Práticas</a>
+            <a href="#quiz">Desafio</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Agricultura Sustentável</h2>
+        <p>Produzir alimentos saudáveis hoje, garantindo os recursos naturais e o solo para as próximas gerações.</p>
+    </div>
+
+    <div class="container">
+        
+        <section id="sobre">
+            <h3>O que é?</h3>
+            <p>A agricultura sustentável é um modelo de produção que equilibra as necessidades humanas de alimentação com a preservação ambiental, a viabilidade econômica e a justiça social. Ao contrário dos métodos agrícolas agressivos, ela foca em trabalhar em harmonia com os ecossistemas, protegendo a biodiversidade e regenerando os recursos naturais.</p>
+        </section>
+
+        <section id="praticas">
+            <h3>Principais Práticas</h3>
+            <p>Conheça alguns dos pilares técnicos que tornam a produção de alimentos amiga do planeta:</p>
+            
+            <div class="grid-praticas">
+                <div class="card">
+                    <h4>Rotação de Culturas</h4>
+                    <p>Alternar diferentes espécies de plantas em uma mesma área para evitar o esgotamento de nutrientes específicos do solo e quebrar o ciclo de pragas.</p>
+                </div>
+                <div class="card">
+                    <h4>Adubação Verde</h4>
+                    <p>Cultivo de plantas (como leguminosas) que são incorporadas ao solo para enriquecê-lo naturalmente com nitrogênio e matéria orgânica.</p>
+                </div>
+                <div class="card">
+                    <h4>Controle Biológico</h4>
+                    <p>Uso de inimigos naturais (como insetos benéficos ou microrganismos) para combater pragas, reduzindo ou eliminando a necessidade de defensivos químicos sintéticos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz">
+            <h3>Teste seu Conhecimento</h3>
+            <div class="quiz-container">
+                <p><strong>Qual das alternativas abaixo NÃO é uma prática recomendada na agricultura sustentável?</strong></p>
+                <div class="quiz-options">
+                    <button onclick="verificarResposta(false, this)">A) Uso de captação de água da chuva para irrigação.</button>
+                    <button onclick="verificarResposta(true, this)">B) Aplicação massiva e contínua de fertilizantes químicos sintéticos.</button>
+                    <button onclick="verificarResposta(false, this)">C) Integração Lavoura-Pecuária-Floresta (ILPF).</button>
+                </div>
+                <div id="feedback"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EcoCultivar - Conteúdo Educacional sobre Sustentabilidade.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
